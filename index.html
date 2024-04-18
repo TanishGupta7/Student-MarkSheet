@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks Sheet</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="javas.js"></script>
+</head>
+
+<body> 
+
+    <div class="heading">
+        <h1>Student MarkSheet</h1>
+    </div>
+
+    <div class="sheet">
+        <form>
+            <label>C</label>
+            <input type="number" name="c" id="c" autofocus placeholder="Enter your marks" onblur="chkc();">
+            <span id="errA">*</span><br><br>
+            <label>C++</label>
+            <input type="number" name="cpp" id="cpp" placeholder="Enter your marks" onblur="chkcpp();"> 
+            <span id="errB">*</span> <br><br>
+            <label>Java</label>
+            <input type="number" name="java" id="java" placeholder="Enter your marks" onblur="chkjava();"> <span id="errC">*</span><br><br>
+            <label>Phyton</label>
+            <input type="number" name="pyt" id="pyt" placeholder="Enter your marks" onblur="chkpyt();"> <span id="errD">*</span><br><br>
+            <label>JavaScript</label>
+            <input type="number" name="js" id="js" placeholder="Enter your marks" onblur="chkjs();"> <span id="errE">*</span>
+            <br><br><br><br>
+            <input type="button" value="Total" onclick="doTotal();" disabled id="btntotal">
+            <input type="button" value="Percentage" onclick="doPer();"disabled id="btnper">
+            <input type="button" value="Grade" onclick="doGrade();"disabled id="btngrade">
+            <input type="button" value="Clear" onclick="doClear();">
+            <br><br><br><br>
+            <label>Total</label>
+            <input type="number" id="mrkstotal" placeholder="Total Marks" readonly> <br><br>
+            <label>Percentage</label>
+            <input type="number" id="mrksper" placeholder="Percentage" readonly> <br><br>
+            <label>Grade</label>
+            <input type="text" id="mrksgrade" placeholder="Grade" readonly> <br><br>
+        </form>
+    </div>
+
+</body>
+
+</html>

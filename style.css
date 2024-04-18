@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:aliceblue;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    margin-top: 30px;
+    width: 100%;
+}
+h1{
+    width: 20%;
+    height: 6vh;
+    padding-top: 3px;
+    margin: auto;
+    text-align: center;
+    color: cornflowerblue;
+    text-shadow: 2px 2px white;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder ;
+    font-style: oblique;
+    background-color:darkgray;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 4px 5px 6px 7px black;
+}
+.sheet{
+    width: 60%;
+    height: 80%;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    }
+    form
+    {
+        margin: auto;
+        background-color: black;
+        padding: 50px 90px 50px 90px;
+        box-shadow: 4px 5px 6px 7px whitesmoke;
+    }
+label{
+    color:coral;
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-variant: small-caps;
+    padding-right: 50px;
+}
+input[type=number],
+        select {
+            width: 60%;
+            padding: 12px 20px;
+            margin: 8px 15px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 14px;
+            box-sizing: border-box;
+            font-size: larger;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 600;
+        }
+        input[type=text],
+        select {
+            width: 60%;
+            padding: 12px 20px;
+            margin: 8px 15px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 14px;
+            box-sizing: border-box;
+            font-size: larger;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+            font-weight: 600;
+        }
+        input[type=text]:focus {
+            background-color: beige;
+        }
+        input[type=number]:focus {
+            background-color: beige;
+        }
+        input[type=button],
+        select{
+            width: 20%;
+            padding: 10px;
+            border-radius: 15px;
+            margin-right: 30px;
+            cursor: pointer;
+            background-color: aliceblue;
+            font-size: large;
+            font-weight: 700;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
